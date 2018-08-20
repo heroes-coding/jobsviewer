@@ -1,0 +1,18 @@
+[package]
+name = "scrape"
+version = "0.1.0"
+authors = ["heroes-coding <jeremy@heroes.report>"]
+
+[dependencies]
+reqwest = "*"
+select = "*"
+scraper = "*"
+chrono = "*"
+strsim = "*"
+serde_json = "*"
+serde_derive = "*"
+serde = "*"
+
+[dependencies.rusqlite]
+version = "0.14.0"
+features = ["bundled"]

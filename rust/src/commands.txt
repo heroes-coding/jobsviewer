@@ -1,0 +1,3 @@
+cargo run 1 https://newyork.craigslist.org/search/sof "New York" NY C:/rust/test20.sql
+
+cargo run 2 7 C:/rust/test20.sql

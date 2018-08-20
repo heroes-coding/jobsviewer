@@ -1,0 +1,120 @@
+@import "./variables.scss";
+
+
+.app_body {
+  background: $Dark;
+  display: flex;
+}
+
+.listing {
+  cursor: pointer;
+  margin:5px;
+  padding: 5px;
+  background: darken($Dark,10%);
+  color: $Light;
+  border: 1px solid darken($Color1,20%);
+  border-radius: 5px;
+}
+.listing:hover {
+  background: darken($Color1,30%);
+}
+
+
+.listing_title {
+  color: $Highlight;
+  font-size: 1.2em;
+  padding-top: 3px;
+}
+
+.listing_location {
+  font-size: 0.9em;
+  padding: 4px 0 0 5px;
+}
+
+.listing_date {
+  float: right;
+  font-size: 0.8em;
+}
+
+.listings_holder {
+  text-align: left;
+  width: 400px;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.job_details {
+  text-align: left;
+  width: 65%;
+  padding: 20px 40px 20px 20px;
+  color: $Light;
+}
+
+input.searchInput {
+    background: $Light;
+    height: 1.5em;
+    border: none;
+    border-radius: 0;
+    color: $Dark;
+    padding: 5px;
+    max-width: 300px;
+    border-radius: 5px 5px 0 0;
+    font-size: 0.8em;
+}
+
+.filter_label, .app_title {
+  font-size: 1.1em;
+  color: $Light;
+  padding: 5px 15px 5px 5px;
+}
+
+.app_title {
+  margin-left:50px;
+}
+
+.fa-external-link, .fa-square-o {
+  cursor: pointer;
+  float: left;
+  margin: 0 10px 5px 0px;
+}
+
+.fa-external-link:hover, .fa-check-square-o {
+  color: $Highlight;
+}
+
+.applied, .external_link {
+  float: right;
+  spacing: 10px;
+  display: flex;
+  color: $Light;
+}
+
+.external_link {
+  float: left;
+}
+
+.applied_title, .link_title {
+  margin: 5px 10px 0 0;
+}
+
+
+
+.filters {
+  background: black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.empty {
+  color: $Light;
+  padding: 50px;
+}
+
+.job_details a {
+  color: $Highlight;
+}
+
+body {
+  background: black;
+}
